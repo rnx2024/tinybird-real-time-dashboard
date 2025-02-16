@@ -18,7 +18,7 @@ git clone https://github.com/tinybirdco/real-time-python-dashboard.git
 cd real-time-python-dashboard
 ```
 
-Setup virtual environment:
+Setup virtual environment (Linux):
 
 ```bash
 python -mvenv .e
@@ -26,10 +26,19 @@ python -mvenv .e
 echo ".e*" >> .gitignore
 ```
 
+Setup virtual environment (Windows):
+
+```
+python -mvenv .e
+. .e/scripts/activate
+echo ".e*" >> .gitignore
+
+```
 Install requirements:
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
+
 ```
 
 Install Tinybird CLI
