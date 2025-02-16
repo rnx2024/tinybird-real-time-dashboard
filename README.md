@@ -18,7 +18,7 @@ git clone https://github.com/tinybirdco/real-time-python-dashboard.git
 cd real-time-python-dashboard
 ```
 
-Setup virtual environment:
+Setup virtual environment (Linux):
 
 ```bash
 python -mvenv .e
@@ -26,6 +26,13 @@ python -mvenv .e
 echo ".e*" >> .gitignore
 ```
 
+Setup virtual environment (Windows): 
+
+```python
+python -m venv .e
+.\.e\Scripts\activate
+echo ".e*" >> .gitignore
+```
 Install requirements:
 
 ```bash
