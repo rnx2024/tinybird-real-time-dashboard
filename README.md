@@ -14,7 +14,7 @@ To implement this project, you'll need to have the following installed
 Clone the repository:
 
 ```bash
-git clone https://github.com/tinybirdco/real-time-python-dashboard.git
+git clone https://github.com/rnx2024/Real-time-Dashboard-Python-Dash-
 cd real-time-python-dashboard
 ```
 
